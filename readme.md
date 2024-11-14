@@ -24,7 +24,7 @@ touch file-{1..10}.txt
 
 ```
 
-- ln command usage - hardlink and softlink are shortcut like one creates for an app on desktop 
+- 'ln' command usage - hardlink and softlink are shortcut like one creates for an app on desktop 
 
 ```
 ln -s /home/ubuntu/some-path.txt softlink
@@ -37,14 +37,14 @@ NOTE: softlink gets destroyed if main file is removed, whereas hardlink persists
 - User management - create a user
 
 ```
- sudo useradd -m jethalal
+ sudo useradd -m <username>
  cat /etc/passwd
 ```
 
 - create a password for user 
 
 ```
- sudo passwd jethalal
+ sudo passwd <created-user>
 ```
 
 - switch user 
