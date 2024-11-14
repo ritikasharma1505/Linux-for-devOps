@@ -8,7 +8,7 @@
 scp -i <pem-file> 'filename' ubuntu@ec2-ip.compute-1.amazonaws.com:/home/ubuntu/remote-folder/
 from-local.txt                                                                        100%   60     0.3KB/s   00:00
 
-PS C:\Users\Ritik> scp -i <pem-file> ubuntu@ec2-ip.compute-1.amazonaws.com:/home/ubuntu/filename .
+scp -i <pem-file> ubuntu@ec2-ip.compute-1.amazonaws.com:/home/ubuntu/filename .
 from-remote.txt                                                                       100%   88     0.2KB/s   00:00
            
 ```
